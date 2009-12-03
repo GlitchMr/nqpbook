@@ -28,7 +28,7 @@ languages.
 A version of NQP comes compiled and installed with Parrot; we
 recommend using that.
 
-=head1 Getting involved in NQP, Parrot, or the book
+=head1 Getting involved in NQP, Parrot, or this book
 
 TODO: Add this section.
 
