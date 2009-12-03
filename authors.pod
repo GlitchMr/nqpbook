@@ -1,0 +1,10 @@
+=head1 Authors
+
+This book is the work of many contributors.  They are listed below.
+
+=item Patrick R. Michaud  
+
+Patrick is the chief architect of NQP and of Rakudo, the Parrot-based 
+Perl 6 compiler.
+
+

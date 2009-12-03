@@ -1,0 +1,35 @@
+=head0 Preface
+
+NQP is short for "Not Quite Perl" -- a lightweight Perl6-like 
+language for targetting virtual machines such as Parrot.  The
+key feature of NQP is that it's designed to be a small compiler
+with minimal runtime libraries (as compared to Perl 6, which has
+a very large CORE library).  NQP's primary goal is to provide
+a high-level language for writing compilers and libraries.
+
+This book is an introduction to using NQP to create compilers.
+Since NQP's primary target is Parrot, this book focuses on
+compiler creation in Parrot (although other backends for NQP
+are envisioned).
+
+The book is a work-in-progress, and it's expected that there
+will be sections of C<TODO> comments sprinkled throughout the
+text, to serve as reminders of things to be added, clarified,
+or otherwise addressed as we continually improve the text.
+
+=head1 Audience
+
+This book is primarily for people who want to learn about NQP
+and have some experience programming in other programming 
+languages.  
+
+=head1 Obtaining and installing NQP
+
+A version of NQP comes compiled and installed with Parrot; we
+recommend using that.
+
+=head1 Getting involved in NQP, Parrot, or the book
+
+TODO: Add this section.
+
+

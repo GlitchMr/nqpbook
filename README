@@ -1,0 +1,31 @@
+This is a book about creating compilers using NQP.
+
+It is intended to be something of a tutorial -- walking the reader
+through the stages of building a simple compiler and incrementally
+adding features to get a full-fledged language.
+
+Currently the primary author is Patrick Michaud, but anyone who
+is willing to work on the book is welcome to join the effort.
+We tend to hang out on #parrot on irc.parrot.org and #perl6 on
+irc.freenode.net .
+
+To build the book, you need to have the following software installed:
+
+    * make
+    * perl 5
+    * the Perl 5 module Pod::PseudoPod::LaTeX
+    * inkscape (for svg -> pdf conversion)
+    * pdflatex
+
+Just type 'make' on your command line, and the book should be built in
+build/nqpbook.pdf .
+
+(Hint for Kubuntu 9.10:  In order to get the above modules, I did
+    cpan Pod::PseudoPod::LaTeX
+    apt-get install inkscape texlive-latex-base
+)
+
+All material in this repository is licensed under a CC-by-nc-sa license:
+<http://creativecommons.org/licenses/by-nc-sa/2.5/> (attribution,
+noncommercial, share-alike), unless explicitly stated otherwise.
+(Maybe we'll remove the noncommercial part at some point.)
